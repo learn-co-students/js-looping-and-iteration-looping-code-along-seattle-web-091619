@@ -12,7 +12,6 @@ function writeCards(names, occasion) {
 
 function countDown(count) {
   while (count >= 0) {
-    console.log(count);
-    count--;
+    console.log(count--);
   }
 }
